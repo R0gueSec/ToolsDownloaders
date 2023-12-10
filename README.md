@@ -2,7 +2,8 @@
 
 Both of these bash scripts download pentesting tools and organize them into directories:
 
-kali-adtools.sh downloads Active Directory pentesting tools. 
+kali-adtools.sh downloads Active Directory pentesting tools.
+
 kali-tools.sh downloads non-AD pentesting tools.
 
 These scripts are especially useful when starting a fresh install of Kali.
