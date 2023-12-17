@@ -1,6 +1,7 @@
 #! /bin/bash
 
 sudo apt update
+sudo updatedb
 sudo apt install flameshot
 sudo apt-get install libreoffice
 # Installing Brave Browser
@@ -22,3 +23,4 @@ chmod +x nxc
 mv nxc /home/kali/.local/bin
 sudo apt install remmina
 sudo apt install gedit
+sudo apt update && sudo apt install -y bloodhound
