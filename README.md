@@ -6,6 +6,8 @@ kali-adtools.sh downloads Active Directory pentesting tools.
 
 kali-tools.sh downloads non-AD pentesting tools.
 
+kali-apps.sh downloads useful applications that install into kali, but not into a user directory.
+
 These scripts are especially useful when starting a fresh install of Kali.
 
 kali-adtools.sh:
