@@ -1,6 +1,6 @@
 # ToolsDownloaders
 
-Both of these bash scripts download pentesting tools and organize them into directories:
+All of these bash scripts download pentesting tools and organize them into directories:
 
 kali-adtools.sh downloads Active Directory pentesting tools. Total file size: 212.5 MiB
 
