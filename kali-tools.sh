@@ -1,5 +1,13 @@
 #! /bin/bash
 
+############################################
+# Made by RogueSec
+# hello@roguesec.net
+# https://github.com/R0gueSec
+# Discord: @roguesec
+# Twitter: @RogueSec_
+############################################
+
 mkdir Tools
 cd Tools
 mkdir WebPentesting
