@@ -109,10 +109,15 @@ mkdir Pivoting
 cd Pivoting
 git clone https://github.com/nicocha30/ligolo-ng.git
 cd ligolo-ng
-go build -o agent cmd/agent/main.go
 go build -o proxy cmd/proxy/main.go
-GOOS=windows go build -o agent.exe cmd/agent/main.go
-GOOS=windows go build -o proxy.exe cmd/proxy/main.go
+wget https://github.com/nicocha30/ligolo-ng/releases/download/v0.4.4/ligolo-ng_agent_0.4.4_linux_amd64.tar.gz
+chmod +x ligolo-ng_agent_0.4.4_linux_amd64.tar.gz
+mkdir Linux
+tar -xvzf ligolo-ng_agent_0.4.4_linux_amd64.tar.gz -C ./Linux
+wget https://github.com/nicocha30/ligolo-ng/releases/download/v0.4.4/ligolo-ng_agent_0.4.4_windows_amd64.zip
+chmod +x ligolo-ng_agent_0.4.4_windows_amd64.zip
+mkdir Windows
+unzip ligolo-ng_agent_0.4.4_windows_amd64.zip -d ./Windows
 cd ..
 mkdir Windows
 cd Windows
