@@ -108,6 +108,12 @@ cd ..
 mkdir Pivoting
 cd Pivoting
 git clone https://github.com/nicocha30/ligolo-ng.git
+cd ligolo-ng
+go build -o agent cmd/agent/main.go
+go build -o proxy cmd/proxy/main.go
+GOOS=windows go build -o agent.exe cmd/agent/main.go
+GOOS=windows go build -o proxy.exe cmd/proxy/main.go
+cd ..
 mkdir Windows
 cd Windows
 wget https://github.com/StudioEtrange/socat-windows/raw/master/socat.exe
