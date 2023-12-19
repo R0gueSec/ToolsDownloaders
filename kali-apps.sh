@@ -33,3 +33,4 @@ sudo apt install remmina
 sudo apt install gedit
 sudo apt update && sudo apt install -y bloodhound
 sudo apt install kali-wallpapers-all
+python3 -m pip install --user uploadserver
