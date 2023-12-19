@@ -19,6 +19,7 @@ wget https://github.com/robiot/rustcat/releases/download/v3.0.0/rcat-v3.0.0-linu
 cd ..
 mkdir Windows
 cd Windows
+cp /usr/share/windows-resources/binaries/nc.exe .
 wget https://github.com/andrew-d/static-binaries/raw/master/binaries/windows/x86/ncat.exe
 wget https://github.com/vinsworldcom/NetCat64/releases/download/1.11.6.4/nc64.exe
 wget https://github.com/StudioEtrange/socat-windows/raw/master/socat.exe
