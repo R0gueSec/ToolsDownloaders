@@ -218,6 +218,7 @@ mkdir Shells
 cd Shells
 cp -r /usr/share/webshells/ .
 wget https://github.com/R0gueSec/ToolsDownloaders/releases/download/PDF/StabilizingShellwithPython.pdf
+git clone https://github.com/infodox/python-pty-shells.git
 cd ..
 mkdir Wordlists
 cd Wordlists
