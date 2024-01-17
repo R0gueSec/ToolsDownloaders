@@ -2,6 +2,8 @@
 
 All of these bash scripts download pentesting tools and organize them into directories:
 
+kali-pipx.sh downloads and installs pipx and then uses pipx to install additional tools, such as impacket and autorecon
+
 kali-adtools.sh downloads Active Directory pentesting tools. Total file size: 212.5 MiB
 
 kali-tools.sh downloads non-AD pentesting tools. Total file size: 170.0 MiB
