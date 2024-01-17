@@ -28,7 +28,7 @@ rm obsidian_1.4.16_amd64.deb
 # Installing NetExec (nxc)
 wget https://github.com/Pennyw0rth/NetExec/releases/download/v1.1.0/nxc
 chmod +x nxc
-mv nxc /usr/local/bin
+sudo mv nxc /usr/local/bin
 sudo apt install remmina
 sudo apt install gedit
 sudo apt update && sudo apt install -y bloodhound
