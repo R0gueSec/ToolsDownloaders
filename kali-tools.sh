@@ -20,6 +20,23 @@ chmod +x setup.py
 python3 setup.py install --user
 #cd back to WebPentesting
 cd ..
+mkdir Wordlists
+cd Wordlists
+mkdir ffuf
+cd ffuf
+mkdir OneListForAll
+cd OneListForAll
+wget https://raw.githubusercontent.com/six2dez/OneListForAll/main/README.md
+wget https://raw.githubusercontent.com/six2dez/OneListForAll/main/onelistforallmicro.txt
+wget https://raw.githubusercontent.com/six2dez/OneListForAll/main/onelistforallshort.txt
+#cd back to ffuf
+cd ..
+#cd back to Wordlists
+cd ..
+#cd back to WebPentesting
+cd ..
+#cd back to WebPentesting
+cd ..
 git clone https://github.com/commixproject/commix.git
 git clone https://github.com/iagox86/dnscat2.git
 git clone https://github.com/lukebaggett/dnscat2-powershell.git
