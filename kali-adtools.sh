@@ -98,6 +98,11 @@ git clone https://github.com/dafthack/DomainPasswordSpray.git
 cd ..
 mkdir 5-AttackingAD
 cd 5-AttackingAD
+mkdir Groups
+cd Groups
+git clone https://github.com/mpgn/BackupOperatorToDA.git
+#cd to 5-AttackingAD
+cd ..
 git clone https://github.com/micahvandeusen/gMSADumper.git
 #impacket from the ShutDown Repo to get his version of dacledit
 git clone https://github.com/ShutdownRepo/impacket -b dacledit
