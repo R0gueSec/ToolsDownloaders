@@ -93,6 +93,7 @@ git clone https://github.com/Wh04m1001/DFSCoerce.git
 git clone https://github.com/topotam/PetitPotam.git
 git clone https://github.com/dirkjanm/CVE-2020-1472.git
 git clone https://github.com/leechristensen/SpoolSample.git
+git clone https://github.com/mubix/pykek.git
 cd ..
 git clone https://github.com/dafthack/DomainPasswordSpray.git
 cd ..
