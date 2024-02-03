@@ -35,8 +35,6 @@ cd ..
 cd ..
 #cd back to WebPentesting
 cd ..
-#cd back to WebPentesting
-cd ..
 git clone https://github.com/commixproject/commix.git
 git clone https://github.com/iagox86/dnscat2.git
 git clone https://github.com/lukebaggett/dnscat2-powershell.git
