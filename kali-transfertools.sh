@@ -222,6 +222,10 @@ git clone https://github.com/infodox/python-pty-shells.git
 wget https://github.com/RustScan/RustScan/releases/download/2.0.1/rustscan_2.0.1_amd64.deb
 sudo dpkg -i rustscan_2.0.1_amd64.deb
 cd ..
+mkdir UAC-Bypass
+cd UAC-Bypass
+git clone https://github.com/ScriptKiddieTutorials/Bypass-UAC.git
+cd ..
 mkdir Wordlists
 cd Wordlists
 git clone https://github.com/insidetrust/statistically-likely-usernames.git
