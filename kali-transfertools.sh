@@ -29,6 +29,10 @@ rm socat-1.8.0.0.tar.gz
 git clone https://github.com/besimorhino/powercat.git
 cd ..
 cd ..
+mkdir Client-SideAttacks
+cd Client-SideAttacks
+git clone https://github.com/0bfxgh0st/MMG-LO/tree/main
+cd ..
 mkdir PortScanners-NmapClones
 cd PortScanners-NmapClones
 git clone https://github.com/sdcampbell/goscan.git
