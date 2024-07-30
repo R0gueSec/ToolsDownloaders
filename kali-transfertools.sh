@@ -32,6 +32,8 @@ cd ..
 mkdir Client-SideAttacks
 cd Client-SideAttacks
 git clone https://github.com/0bfxgh0st/MMG-LO/tree/main
+git clone https://github.com/Greenwolf/ntlm_theft
+git clone https://github.com/xct/hashgrab
 cd ..
 mkdir PortScanners-NmapClones
 cd PortScanners-NmapClones
