@@ -148,6 +148,7 @@ cd ..
 mkdir Potatoes
 cd Potatoes
 wget https://github.com/ohpe/juicy-potato/releases/download/v0.1/JuicyPotato.exe
+wget https://github.com/ivanitlearning/Juicy-Potato-x86/releases/download/1.2/Juicy.Potato.x86.exe
 wget https://raw.githubusercontent.com/ohpe/juicy-potato/master/CLSID/GetCLSID.ps1
 wget https://github.com/antonioCoco/JuicyPotatoNG/releases/download/v1.1/JuicyPotatoNG.zip
 unzip JuicyPotatoNG.zip
