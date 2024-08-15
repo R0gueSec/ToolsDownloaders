@@ -229,8 +229,12 @@ git clone https://github.com/infodox/python-pty-shells.git
 wget https://github.com/RustScan/RustScan/releases/download/2.0.1/rustscan_2.0.1_amd64.deb
 sudo dpkg -i rustscan_2.0.1_amd64.deb
 cd ..
-mkdir UAC-Bypass
-cd UAC-Bypass
+mkdir UserElevate
+cd UserElevate
+wget https://github.com/antonioCoco/RunasCs/releases/download/v1.5/RunasCs.zip
+unzip RunasCs.zip
+wget https://github.com/itm4n/FullPowers/releases/download/v0.1/FullPowers.exe
+wget https://github.com/fashionproof/EnableAllTokenPrivs/blob/master/EnableAllTokenPrivs.ps1
 git clone https://github.com/ScriptKiddieTutorials/Bypass-UAC.git
 cd ..
 mkdir Wordlists
