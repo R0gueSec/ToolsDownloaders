@@ -22,9 +22,9 @@ sudo apt install brave-browser
 sudo apt -y install kali-screensaver
 # Installing Obsidian
 wget https://github.com/obsidianmd/obsidian-releases/releases/download/v1.7.7/obsidian_1.7.7_amd64.deb
-sudo dpkg -i obsidian_1.4.16_amd64.deb
+sudo dpkg -i obsidian_1.7.7_amd64.deb
 # Cleaning Up
-rm obsidian_1.4.16_amd64.deb
+rm obsidian_1.7.7_amd64.deb
 # Installing NetExec (nxc)
 #wget https://github.com/Pennyw0rth/NetExec/releases/download/v1.1.0/nxc
 #chmod +x nxc
