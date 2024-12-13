@@ -168,7 +168,7 @@ wget https://github.com/itm4n/PrintSpoofer/releases/download/v1.0/PrintSpoofer64
 cd ..
 mkdir PrivEscCheckers
 cd PrivEscCheckers
-git clone https://github.com/carlospolop/PEASS-ng.git
+git clone https://github.com/peass-ng/PEASS-ng.git
 cd PEASS-ng
 cd winPEAS
 wget https://github.com/carlospolop/PEASS-ng/releases/download/20231217-4a3b3f9d/winPEAS.bat
