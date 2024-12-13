@@ -39,8 +39,9 @@ python setup.py install
 #cd back to BH-Injectors
 mkdir SharpHound
 cd SharpHound
-wget https://github.com/BloodHoundAD/SharpHound/releases/download/v1.1.1/SharpHound-v1.1.1.zip
-unzip SharpHound-v1.1.1.zip
+#wget https://github.com/BloodHoundAD/SharpHound/releases/download/v1.1.1/SharpHound-v1.1.1.zip
+#unzip SharpHound-v1.1.1.zip
+cp /usr/share/metasploit-framework/data/post/SharpHound.exe .
 #cd back to BH-Injectors
 cd ..
 #cd back to 2-Enum-Internal
