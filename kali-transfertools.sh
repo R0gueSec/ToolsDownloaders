@@ -230,6 +230,7 @@ wget https://github.com/R0gueSec/ToolsDownloaders/releases/download/PDF/Stabiliz
 git clone https://github.com/infodox/python-pty-shells.git
 wget https://github.com/RustScan/RustScan/releases/download/2.0.1/rustscan_2.0.1_amd64.deb
 sudo dpkg -i rustscan_2.0.1_amd64.deb
+wget https://raw.githubusercontent.com/Alamot/code-snippets/refs/heads/master/winrm/winrm_shell_with_upload.rb
 cd ..
 mkdir UserElevate
 cd UserElevate
