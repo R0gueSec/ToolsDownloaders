@@ -47,6 +47,7 @@ git clone https://github.com/TBGSecurity/splunk_shells.git
 git clone https://github.com/s0md3v/XSStrike.git
 git clone https://github.com/enjoiz/XXEinjector.git
 git clone https://github.com/gquere/pwn_jenkins.git
+git clone https://github.com/vladko312/SSTImap.git
 
 #cd back to Tools
 cd ..
