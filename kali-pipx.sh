@@ -19,4 +19,5 @@ sudo apt install seclists curl dnsrecon enum4linux feroxbuster gobuster impacket
 #installing autorecon, impacket, and uploadserver
 pipx install git+https://github.com/Tib3rius/AutoRecon.git
 python3 -m pipx install impacket
-pip3 install uploadserver
+# pip3 install uploadserver ### Deprecated
+pipx install uploadserver # Use kali$ uploadserver $Port
