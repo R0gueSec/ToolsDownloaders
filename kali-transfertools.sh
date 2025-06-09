@@ -117,14 +117,17 @@ cd Pivoting
 git clone https://github.com/nicocha30/ligolo-ng.git
 cd ligolo-ng
 go build -o proxy cmd/proxy/main.go
-wget https://github.com/nicocha30/ligolo-ng/releases/download/v0.4.4/ligolo-ng_agent_0.4.4_linux_amd64.tar.gz
-chmod +x ligolo-ng_agent_0.4.4_linux_amd64.tar.gz
+wget https://github.com/nicocha30/ligolo-ng/releases/download/v0.8.2/ligolo-ng_agent_0.8.2_linux_amd64.tar.gz
+chmod +x ligolo-ng_agent_0.8.2_linux_amd64.tar.gz
+wget https://github.com/nicocha30/ligolo-ng/releases/download/v0.8.2/ligolo-ng_proxy_0.8.2_linux_amd64.tar.gz
+chmod +x ligolo-ng_proxy_0.8.2_linux_amd64.tar.gz
 mkdir Linux
-tar -xvzf ligolo-ng_agent_0.4.4_linux_amd64.tar.gz -C ./Linux
-wget https://github.com/nicocha30/ligolo-ng/releases/download/v0.4.4/ligolo-ng_agent_0.4.4_windows_amd64.zip
-chmod +x ligolo-ng_agent_0.4.4_windows_amd64.zip
+tar -xvzf ligolo-ng_proxy_0.8.2_linux_amd64.tar.gz -C ./Linux
+tar -xvzf ligolo-ng_agent_0.8.2_linux_amd64.tar.gz -C ./Linux
+wget https://github.com/nicocha30/ligolo-ng/releases/download/v0.8.2/ligolo-ng_agent_0.8.2_windows_amd64.zip
+chmod +x ligolo-ng_agent_0.8.2_windows_amd64.zip
 mkdir Windows
-unzip ligolo-ng_agent_0.4.4_windows_amd64.zip -d ./Windows
+unzip ligolo-ng_agent_0.8.2_windows_amd64.zip -d ./Windows
 cd ..
 mkdir Windows
 cd Windows
